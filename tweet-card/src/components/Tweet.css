@@ -1,0 +1,10 @@
+.tweet_cont {
+  display: flex;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tweet_cont {
+    flex-direction: column;
+  }
+}
