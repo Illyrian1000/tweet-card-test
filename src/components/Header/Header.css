@@ -26,3 +26,6 @@ ul > li:hover {
   cursor: pointer;
   border-bottom: 1px solid;
 }
+
+@media only screen and (max-width: 768px) {
+}

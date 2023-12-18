@@ -25,8 +25,6 @@
 }
 
 .tweet_card {
-  /* width: 600px;
-  height: 200px; */
   background-color: white;
   border-radius: 20px;
   margin: 100px 0;
@@ -96,29 +94,24 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .tweet_output {
-    width: 100vw;
+  .tweet_message {
+    width: fit-content;
+    margin: 0 10px 15px 12px;
+  }
+  .tweet_card {
+    width: 90%;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .user_info {
+    margin: 15px 5px 5px 5px;
   }
 
   .tweet_bg_color {
-    width: 100%;
+    width: 100vw;
     margin: 0;
-    padding: 10px;
-  }
-
-  .tweet_card {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .tweet_message {
-    width: 500px;
-  }
-
-  .download_btn {
-    position: relative;
-    bottom: 0px;
   }
 }
